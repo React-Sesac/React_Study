@@ -10,7 +10,6 @@ export default function EventBasic({ type }) {
     case 'time':
         console.log(d.toLocaleTimeString());
         break;
-        default;
     default:
         console.log(d.toLocaleDateString());
         break;
